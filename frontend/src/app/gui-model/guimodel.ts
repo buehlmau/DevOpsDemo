@@ -107,6 +107,16 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "Geheimer Button" },
+                            "icon": "fa-archive",
+                            "color": "yellow", // Icon- und Textfarbe
+                            "backgroundColor": "yellow", // Hintergrundfarbe
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        }
                     ]
                 },
                 {
@@ -141,7 +151,6 @@ export class GuiModel {
             ]
         }
     };
-
 
     get guiModel() {
         return this._guiModel;
